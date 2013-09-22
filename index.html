@@ -1,47 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Ciaobello&#39;s Github Resources : " />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ciaobello's Github Resources by ciaobello</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Ciaobello&#39;s Github Resources</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1>Ciaobello's Github Resources</h1>
+        <p></p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ciaobello">View on GitHub</a>
 
-          <h1 id="project_title">Ciaobello&#39;s Github Resources</h1>
-          <h2 id="project_tagline"></h2>
+        <p class="view"><a href="https://github.com/ciaobello">View My GitHub Profile</a></p>
 
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      </header>
+      <section>
         <h1>
-<a name="ciaobellogithubio" class="anchor" href="#ciaobellogithubio"><span class="octicon octicon-link"></span></a>ciaobello.github.io</h1>
+<a name="igit-was-ist-denn-dass" class="anchor" href="#igit-was-ist-denn-dass"><span class="octicon octicon-link"></span></a>Igit! Was ist denn dass?</h1>
 
-<p>this is a readme file</p>
+<h4>
+<a name="git-%C9%A1%C9%AAt-engl-bl%C3%B6dmann-ist-eine-freie-software-zur-verteilten-versionsverwaltung-von-dateien-die-urspr%C3%BCnglich-f%C3%BCr-die-quellcode-verwaltung-des-linux-kernels-entwickelt-wurde--wikipedia" class="anchor" href="#git-%C9%A1%C9%AAt-engl-bl%C3%B6dmann-ist-eine-freie-software-zur-verteilten-versionsverwaltung-von-dateien-die-urspr%C3%BCnglich-f%C3%BCr-die-quellcode-verwaltung-des-linux-kernels-entwickelt-wurde--wikipedia"><span class="octicon octicon-link"></span></a><em>Git</em> ([ɡɪt], engl. Blödmann) ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die ursprünglich für die Quellcode-Verwaltung des Linux-Kernels entwickelt wurde.  (wikipedia)</h4>
+
+<p>Das Prinzip einer Versionsverwaltung ist einfach.
+Alles wird lokal gespeichert und mit einem Server wie Github sinchronisiert.
+Über sogenante "pull requests" können sich andere Personen an der Programmierung beteiligen mit Ihren,
+lokal gespeicherten Versionen der Daten.</p>
+
+<p>Der beteiligende macht einen Vorschlag einer Code/Daten Änderung
+und der Hauptprogrammierer/ProjektTeam kann diesen Vorschlag dann in Seine Lokalen Daten aufnehmen oder verwerfen.</p>
+
+<p>Nach den Änderungen, werden diese lokalen Daten wieder allen auf dem Server zur verfügung gestellt.</p>
+
+<h5>
+<a name="demo-um-git-zu-zeigen-ohne-installation-git-demo" class="anchor" href="#demo-um-git-zu-zeigen-ohne-installation-git-demo"><span class="octicon octicon-link"></span></a>Demo um Git zu zeigen ohne installation: <a href="http://try.github.io/levels/1/challenges/1">Git Demo</a>
+</h5>
+
+<h5>
+<a name="download-von-git--terminal-oder-commandozeile-orientiert-linux-mac--win" class="anchor" href="#download-von-git--terminal-oder-commandozeile-orientiert-linux-mac--win"><span class="octicon octicon-link"></span></a>Download von Git | Terminal oder Commandozeile orientiert <a href="http://git-scm.com/downloads">Linux, Mac &amp; Win</a>
+</h5>
+
+<h2>
+<a name="wie-starten" class="anchor" href="#wie-starten"><span class="octicon octicon-link"></span></a>Wie Starten?</h2>
+
+<p>Terminal öffnen und folgende Befehle zur Personalisierung eingeben:</p>
+
+<pre><code>
+$ git config --global user.name "Gewünschter Name"
+
+$ git config --global user.email "gewünschter.name@example.com"
+
+</code></pre>
+
+<p>"Gewünschter Name" kann einem Github/Bitbucket Nickname &amp; email entsprechen</p>
+
+<p><a href="http://www.infoworld.com/d/application-development/bitbucket-vs-github-which-project-host-has-the-most-227061?page=0,0">Pro kontra von Github &amp; Bitbucket (english)</a></p>
+
+<p>Damit wir nun Mit einem Projekt starten können geben wir folgendes im Terminal ein:</p>
+
+<pre><code>
+$ git init project  (project ist freiwählbarer Name für welchen eine Verzeichnis erstellt wird)
+$ cd project
+
+$ touch README.md (erstellen einer Datei)
+$ git add README.md (die Datei wurde erstellt ist aber noch nicht permanent der Versionsverwaltung zugewiesen)
+$ git commit -m"mein erster commit" (permanentes hinzufügen/entfernen zur Versionsverwaltung; 
+                                     -m hängt eine Notiz an den Commit) 
+
+</code></pre>
+
+<p>Neugierig gerne selber versuchen?</p>
+
+<p>In das entsprechende Verzeichnis wechseln wo das Repository gespiechert werden soll und eingeben:</p>
+
+<pre><code>
+$git clone https://github.com/ciaobello/start-git start-git
+
+</code></pre>
+
+<p>Weitere nützliche und einmalige Konfigurationen können dem <a href="http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup">Git Handbuch</a> entnommen werden.</p>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
     
-
   </body>
 </html>
