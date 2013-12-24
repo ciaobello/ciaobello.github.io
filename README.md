@@ -46,7 +46,8 @@ $ cd project
 
 $ touch README.md (erstellen einer Datei)
 $ git add README.md (die Datei wurde erstellt ist aber noch nicht permanent der Versionsverwaltung zugewiesen)
-siehe unten "Anleitung wie man den Markdown von Git verwendet"
+siehe unten "Anleitung wie man den Markdown von Git verwendet" 
+$ vi / nano README.md
 $ git add VerzeichnisMitDaten (Die Daten welche ins Repo sollen. Wird rekursive hinzugefügt)
 $ git commit -m"mein erster commit" (permanentes hinzufügen/entfernen zur Versionsverwaltung; 
                                      -m hängt eine Notiz an den Commit) 
