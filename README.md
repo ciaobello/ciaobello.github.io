@@ -46,7 +46,8 @@ $ cd project
 
 $ touch README.md (erstellen einer Datei)
 $ git add README.md (die Datei wurde erstellt ist aber noch nicht permanent der Versionsverwaltung zugewiesen)
-$ git add VerzeichnisMitDaten (Die daten welche ins Repo sollen. Wird rekursive hinzugefügt)
+[Anleitung wie man den Markdown von Git verwendet][5]
+$ git add VerzeichnisMitDaten (Die Daten welche ins Repo sollen. Wird rekursive hinzugefügt)
 $ git commit -m"mein erster commit" (permanentes hinzufügen/entfernen zur Versionsverwaltung; 
                                      -m hängt eine Notiz an den Commit) 
 
@@ -69,6 +70,7 @@ Weitere nützliche und einmalige Konfigurationen können dem [Git Handbuch][4] e
 [2]: http://git-scm.com/downloads
 [3]: http://www.infoworld.com/d/application-development/bitbucket-vs-github-which-project-host-has-the-most-227061?page=0,0
 [4]: http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup
+[5]: https://help.github.com/articles/github-flavored-markdown
 
 
 
